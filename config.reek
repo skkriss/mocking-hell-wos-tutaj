@@ -1,0 +1,17 @@
+LongParameterList:
+  enabled: true
+  exclude: []
+  max_params: 7
+  overrides:
+    initialize:
+      max_params: 7
+TooManyInstanceVariables:
+  enabled: true
+  exclude: []
+  max_instance_variables: 15
+NilCheck:
+  enabled: false
+  exclude: []
+Attribute:
+  enabled: false
+  exclude: []
